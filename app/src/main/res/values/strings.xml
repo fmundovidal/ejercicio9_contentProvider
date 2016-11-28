@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ejercicio9_contentProvider</string>
+    <string name="app_name">My Provider</string>
     <string name="txt_view_name_text">Name:</string>
     <string name="txt_view_age_text">Age:</string>
     <string name="txt_view_name_hint_text">Introduce name...</string>

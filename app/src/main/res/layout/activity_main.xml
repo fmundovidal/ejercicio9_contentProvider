@@ -67,19 +67,19 @@ tools:context="com.example.a5alumno.ejercicio9_contentprovider.MainActivity">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnQueryDB"
+        android:id="@+id/btn_query_db"
         android:text="@string/btn_consult_db_text"
         android:textAppearance="@android:style/TextAppearance.Medium"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAddDB"
+        android:id="@+id/btn_add_db"
         android:text="@string/btn_add_register_db_text"
         android:textAppearance="@android:style/TextAppearance.Medium"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnDeleteDB"
+        android:id="@+id/btn_delete_db"
         android:text="@string/btn_delete_register_db_text"
         android:textAppearance="@android:style/TextAppearance.Medium"/>
 </LinearLayout>
