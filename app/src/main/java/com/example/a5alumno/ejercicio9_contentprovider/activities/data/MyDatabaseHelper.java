@@ -8,9 +8,9 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by A5Alumno on 28/11/2016.
  */
 
-public class MyDatabaseHelper extends SQLiteOpenHelper{
-    private static final String DATABASE_CREATE_COMMAND = "CREATE TABLE "+ParamsDb.TABLE_NAME + " ("+ParamsDb._ID +
-            " INTEGER PRIMARY KEY AUTOINCREMENT, "+ParamsDb.STUDENT_NAME + " TEXT, " + ParamsDb.STUDENT_AGE + " INTEGER);";
+public class MyDatabaseHelper extends SQLiteOpenHelper {
+    private static final String DATABASE_CREATE_COMMAND = "CREATE TABLE " + ParamsDb.TABLE_NAME + " (" + ParamsDb._ID +
+            " INTEGER PRIMARY KEY AUTOINCREMENT, " + ParamsDb.STUDENT_NAME + " TEXT, " + ParamsDb.STUDENT_AGE + " INTEGER);";
 
 
     public MyDatabaseHelper(Context context) {
@@ -23,5 +23,6 @@ public class MyDatabaseHelper extends SQLiteOpenHelper{
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {}
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    }
 }

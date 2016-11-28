@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".activities.data.MyContentProvider"
+            android:authorities="com.example.a5alumno.ejercicio9_contentprovider.activities.data"
+            android:enabled="true"
+            android:exported="false"></provider>
     </application>
 
 </manifest>
