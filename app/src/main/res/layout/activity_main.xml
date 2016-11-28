@@ -6,7 +6,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:background="@drawable/background_image"
-tools:context="com.example.a5alumno.ejercicio9_contentprovider.MainActivity">
+tools:context="com.example.a5alumno.ejercicio9_contentprovider.activities.activities.MainActivity">
 
 <TableLayout
     android:layout_width="match_parent"
